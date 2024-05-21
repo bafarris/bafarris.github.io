@@ -4,3 +4,5 @@ plugins:
 
 title: Brenna Farris
 description: Portfolio and Other Information
+plugins:
+  - jekyll-readme-index
