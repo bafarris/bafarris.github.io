@@ -67,6 +67,11 @@
             border-radius: 50%;
         }
 
+        .about-text {
+            flex: 1; /* Take remaining space */
+            text-align: left; /* Align text to left */
+        }
+
         img {
             max-width: 100%;
             height: auto;
@@ -77,8 +82,10 @@
 <body>
     <h1>Brenna Farris</h1>
     <div class="about-container">
-        <img src="brenna headshot.jpeg" alt="Brenna Farris">
-        <p class="small-text">Hello! My name is Brenna. I am a data and policy analyst skilled in R, Julia, Stata, Excel, and Python. I have a proven track record in optimizing data models, collaborating effectively across diverse teams, and autonomously completing an array of analytics and policy projects. In addition, I am driven by a passion for social justice and a desire to address complex societal issues through detailed policy research and analysis.</p>
+        <div class="about-text">
+            <p class="small-text">Hello! My name is Brenna. I am a data and policy analyst skilled in R, Julia, Stata, Excel, and Python. I have a proven track record in optimizing data models, collaborating effectively across diverse teams, and autonomously completing an array of analytics and policy projects. In addition, I am driven by a passion for social justice and a desire to address complex societal issues through detailed policy research and analysis.</p>
+        </div>
+        <img src="brenna-headshot.jpeg" alt="Brenna Farris">
     </div>
     <p>Let's connect!</p>
     <!-- Contact Information -->
