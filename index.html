@@ -12,7 +12,7 @@
             background-color: #E4EAE4; /* Light sage green background */
             color: #0B3D0B; /* Dark forest green text color */
             text-align: center;
-            padding: 40px; /* Increased padding for larger margins */
+            padding: 60px; /* Increased padding for even larger margins */
         }
 
         h1 {
@@ -87,7 +87,12 @@
         .separator-line {
             width: 100%;
             border-top: 3px solid #0B3D0B; /* Dark forest green color */
-            margin: 20px auto; /* Center the line with margin */
+            margin: 40px auto; /* Center the line with larger margin */
+        }
+
+        /* Additional CSS to stack buttons vertically */
+        .portfolio-buttons .button {
+            display: block;
         }
     </style>
 </head>
@@ -97,7 +102,7 @@
         <div class="about-text">
             <p class="small-text">Hello! My name is Brenna. I am a data and policy analyst skilled in R, Julia, Stata, Excel, and Python. I have a proven track record in optimizing data models, collaborating effectively across diverse teams, and autonomously completing an array of analytics and policy projects. In addition, I am driven by a passion for social justice and a desire to address complex societal issues through detailed policy research and analysis.</p>
         </div>
-        <img src="brenna headshot.jpeg" alt="Brenna Farris">
+        <img src="brenna-headshot.jpeg" alt="Brenna Farris">
     </div>
     <!-- Separator Line -->
     <div class="separator-line"></div>
@@ -108,9 +113,11 @@
     <!-- Separator Line -->
     <div class="separator-line"></div>
     <p class="bold-text">Portfolio</p>
-    <a href="https://github.com/bafarris/un-debate-lda-topics" class="button green-button">Permanence on the UN Security Council and Topics of Discussion</a>
-    <a href="https://github.com/bafarris/speech-sentiment-bilstm" class="button green-button">Applying Bi-LSTM Model to Better Predict Sentiment Scores for Speech Data</a>
-    <!-- New button for the PDF -->
-    <a href="Writing Sample - Gender and Globalization Policy Paper - Brenna Farris.pdf" class="button green-button">Policy Paper Writing Sample - </a>
+    <div class="portfolio-buttons">
+        <a href="https://github.com/bafarris/un-debate-lda-topics" class="button green-button">Permanence on the UN Security Council and Topics of Discussion (R Project)</a>
+        <a href="https://github.com/bafarris/speech-sentiment-bilstm" class="button green-button">Applying Bi-LSTM Model to Better Predict Sentiment Scores for Speech Data (Python Project)</a>
+        <!-- New button for the PDF -->
+        <a href="Writing Sample - Gender and Globalization Policy Paper - Brenna Farris.pdf" class="button green-button">Policy Paper Writing Sample</a>
+    </div>
 </body>
 </html>
