@@ -23,6 +23,10 @@
             font-size: 1.2em;
         }
 
+        .small-text {
+            font-size: 0.9em; /* Smaller font size for specific paragraphs */
+        }
+
         .button {
             display: inline-block;
             padding: 10px 20px;
@@ -40,6 +44,14 @@
             background-color: #0056b3;
         }
 
+        .green-button {
+            background-color: #0B3D0B; /* Dark forest green background */
+        }
+
+        .green-button:hover {
+            background-color: #064f06; /* Darker green on hover */
+        }
+
         img {
             max-width: 100%;
             height: auto;
@@ -48,12 +60,14 @@
     </style>
 </head>
 <body>
-    <h1>Welcome to My Website!</h1>
-    <p>This is the home page of Brenna Farris's website and portfolio.</p>
-    
-    <a href="link-to-your-page1.html" class="button">Page 1</a>
-    <a href="link-to-your-page2.html" class="button">Page 2</a>
-    
-    <img src="path/to/your-image.jpg" alt="Description of the image">
+    <h1>Brenna Farris</h1>
+    <p>About Me</p>
+    <p class="small-text">Hello! My name is Brenna. Hello everyone! I am a data and policy analyst skilled in R, Julia, Stata, Excel, and Python. I have a proven track record in optimizing data models, collaborating effectively across diverse teams, and autonomously completing an array of analytics and policy projects. In addition, I am driven by a passion for social justice and a desire to address complex societal issues through detailed policy research and analysis.</p>
+    <p>Let's connect!</p>
+    <!-- Contact Information -->
+    <p class="small-text">Email: <a href="mailto:bafarris8@gmail.com">bafarris8@gmail.com</a> | LinkedIn: <a href="https://www.linkedin.com/in/brennafarris/" target="_blank">https://www.linkedin.com/in/brennafarris/</a></p>    
+    <p>Portfolio</p>
+    <a href="https://github.com/bafarris/un-debate-lda-topics" class="button green-button">Permanence on the UN Security Council and Topics of Discussion</a>
+    <a href="https://github.com/bafarris/speech-sentiment-bilstm" class="button green-button">Applying Bi-LSTM Model to Better Predict Sentiment Scores for Speech Data</a>
 </body>
 </html>
