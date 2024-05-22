@@ -52,6 +52,21 @@
             background-color: #064f06; /* Darker green on hover */
         }
 
+        .about-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px 0;
+        }
+
+        .about-container img {
+            max-width: 200px;
+            height: auto;
+            border-radius: 50%;
+        }
+
         img {
             max-width: 100%;
             height: auto;
@@ -61,11 +76,14 @@
 </head>
 <body>
     <h1>Brenna Farris</h1>
-    <p>About Me</p>
-    <p class="small-text">Hello! My name is Brenna. Hello everyone! I am a data and policy analyst skilled in R, Julia, Stata, Excel, and Python. I have a proven track record in optimizing data models, collaborating effectively across diverse teams, and autonomously completing an array of analytics and policy projects. In addition, I am driven by a passion for social justice and a desire to address complex societal issues through detailed policy research and analysis.</p>
+    <div class="about-container">
+        <img src="brenna-headshot.jpeg" alt="Brenna Farris">
+        <p class="small-text">Hello! My name is Brenna. I am a data and policy analyst skilled in R, Julia, Stata, Excel, and Python. I have a proven track record in optimizing data models, collaborating effectively across diverse teams, and autonomously completing an array of analytics and policy projects. In addition, I am driven by a passion for social justice and a desire to address complex societal issues through detailed policy research and analysis.</p>
+    </div>
     <p>Let's connect!</p>
     <!-- Contact Information -->
-    <p class="small-text">Email: <a href="mailto:bafarris8@gmail.com">bafarris8@gmail.com</a> | LinkedIn: <a href="https://www.linkedin.com/in/brennafarris/" target="_blank">https://www.linkedin.com/in/brennafarris/</a></p>    
+    <a href="mailto:bafarris8@gmail.com" class="button green-button">Email Me</a>
+    <a href="https://www.linkedin.com/in/brennafarris/" target="_blank" class="button green-button">LinkedIn</a>
     <p>Portfolio</p>
     <a href="https://github.com/bafarris/un-debate-lda-topics" class="button green-button">Permanence on the UN Security Council and Topics of Discussion</a>
     <a href="https://github.com/bafarris/speech-sentiment-bilstm" class="button green-button">Applying Bi-LSTM Model to Better Predict Sentiment Scores for Speech Data</a>
