@@ -13,7 +13,6 @@
             color: #0B3D0B; /* Dark forest green text color */
             text-align: center;
             padding: 20px;
-            position: relative; /* Set position to relative */
         }
 
         h1 {
@@ -72,28 +71,6 @@
             max-width: 100%;
             height: auto;
             margin-top: 20px;
-        }
-
-        /* Decorative border */
-        body::before,
-        body::after {
-            content: "";
-            position: absolute;
-            top: 0;
-            bottom: 0;
-            width: 100%;
-            border: 2px solid #0B3D0B; /* Dark forest green color */
-            z-index: -1;
-        }
-
-        body::before {
-            left: 0;
-            border-right: none;
-        }
-
-        body::after {
-            right: 0;
-            border-left: none;
         }
     </style>
 </head>
